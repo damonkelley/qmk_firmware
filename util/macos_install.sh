@@ -28,4 +28,4 @@ brew install qmk/qmk/qmk
 brew link --force avr-gcc@8
 brew link --force arm-gcc-bin@8
 
-pip3 install -r "${util_dir}/../requirements.txt"
+pip3 install --user -r "${util_dir}/../requirements.txt"
